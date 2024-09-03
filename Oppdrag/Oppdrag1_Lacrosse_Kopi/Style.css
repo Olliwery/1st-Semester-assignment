@@ -1,0 +1,285 @@
+body { /* Dette er for hele nettsiden */
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo { /* Dette er til Logoen */
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+ }
+
+#logo1 {
+    width: 150px;
+    height: auto;
+}
+
+#logo2 {
+    width: 150px;
+    height: auto;
+}
+
+.header { /* Dette er for hele navbaren */
+    display: flex;
+    background-color: #313131;
+    color: white;
+    gap: 20px;
+}
+
+#linker { /* Dette er til linkene i navbaren */
+    color: white;
+    text-decoration: none;
+    font-size: 50%;
+}
+
+#linker:hover { /* Dette er en hover effekt for linkene i navbaren */
+    font-size: 100%;
+    transition: all.40s;
+    color: #94BEE6;
+}
+
+#linker1 { /* Dette er stylen til anchor-lenken  */
+    color: white;
+    text-decoration: none;
+    font-size: 200%;
+    transition: color 3s ease;
+}
+
+#linker1:hover { /* dette er en hover effect til anchor-lenken. */
+    font-size: 220%;
+    transition: all.40s;
+    color: #94BEE6;
+}
+
+
+.headertext { /* Dette er stylen og hvor teksten i navbaren skal stå */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 75%;
+}
+
+#sof { /* Dette er til lenken for "informsjon til spillere) */
+    color: white;
+    text-decoration: none;
+}
+
+#sof:hover{ /* Dette er hover effekten til "infromasjon til spillere) */
+    font-size: 120%;
+    transition: all.40s;
+    color: #94BEE6;
+}
+
+#lacrosseteam { /* Bredden til bildet */
+    width: 100%;
+}
+
+.maincontent-top { /* Dette er hovedinnholdet til toppen av forsiden */
+    display: flex;
+    position: relative;
+    background-image: url("lacrosseteam.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-block-1 { /* Dette er til tekstboksene i midten av forsidebildet */
+    width: 320px;
+    height: 40px;
+    font-size: 75%;
+    color: rgb(0, 0, 0);
+    padding-right: 20px;
+    border-radius: 12.5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+
+.text-block-2 { /* Dette er til tekstboksene i midten av forsidebildet */
+    width: 320px;
+    height: 40px;
+    background-color: #94BEE6;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 12.5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 200%;
+    padding: 20px;
+}
+
+#medlem-link {/* Dette er til tekstboksene i midten av forsidebildet */
+    color: white;
+    text-decoration: underline #94BEE6;
+}
+
+.maincontent-bottom{ /* Dette er hovedinnholdet til bunnen av forsiden */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#maintext1{ /* Dette er hovedinnholdes-teksten til bunnen av forsiden */
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    font-size: 275%;
+    color: rgb(0, 0, 0);
+}
+
+hr{ /* Denne styler streker over og under "Hva er Lacrosse" */
+  width: 25%;
+  height: 4px;
+  background-color: black;
+}
+
+#maintext2{ /* Denne styler teksten under "Hva er lacrosse" */
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    font-size: 175%;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: rgb(76, 76, 76)
+}
+
+.footer { /* Denne styler footeren */
+    display: flex;
+    justify-content: center;
+    background-color: #313131;
+    color: white;
+    padding: 20px;
+    font-size: 125%;
+}
+
+
+.maincontent-top2{ /* Dette er hovedinnholdet til toppen av "informasjon til spillere" */
+    display: flex;
+    justify-content: center;
+    background-color: #94BEE6;
+    font-size: 115%;
+}
+
+#kildelenke{ /* Dette er til en kilde på forsiden */
+    color: rgb(62, 107, 255);
+    text-decoration: none;
+}
+
+.maincontent-bottom2{ /* Dette er  til hovedinnholdet av "informasjon til spillere" */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#kamper{ /* Dette er  til "kamper" på "informasjon til spillere" */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #313131;
+    color: white;
+    font-size: 120%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-top: 45px;
+    width: 50%;
+}
+#treningstider{ /* Dette er  til "treningstider" på "informasjon til spillere" */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #313131;
+    color: white;
+    font-size: 120%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-top: 45px;
+    width: 50%;
+}
+#sekretariet{ /* Dette er  til "sekretariet" på "informasjon til spillere" */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #313131;
+    color: white;
+    font-size: 120%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-top: 45px;
+    width: 50%;
+}
+#kvalifisering{ /* Dette er  til "kvalifisering" på "informasjon til spillere" */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #313131;
+    color: white;
+    font-size: 120%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-top: 45px;
+    width: 50%;
+}
+
+h4{ /* Denne er til h4 tagger */
+    font-size: 120%;
+    text-decoration: underline;
+}
+
+h5{ /* Denne er til h5 tagger */
+    font-size: 200%;
+    text-decoration: overline 5px;
+}
+
+.nyttiglenker{ /* Denne er til "nyttige lenker" på "informasjon til spillere" */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.viktig{ /* Denne er til "nyttige lenker" på "informasjon til spillere" */
+    gap: 30px;
+}
+
+#nyttiglenke1{ /* Denne er til "nyttige lenker" på "informasjon til spillere" */
+    background-color: #313131;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+#nyttiglenke2{ /* Denne er til "nyttige lenker" på "informasjon til spillere" */
+    background-color: #313131;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+#nyttiglenke3{ /* Denne er til "nyttige lenker" på "informasjon til spillere" */
+    background-color: #313131;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+}

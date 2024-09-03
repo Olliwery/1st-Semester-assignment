@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 186 137.75">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #222;
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #673ab7;
+        font-family: SegoeUIVariable, 'Segoe UI Variable';
+        font-size: 119.44px;
+        font-variation-settings: 'wght' 400, 'opsz' 10;
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <text class="cls-3" transform="translate(17.88 101.54)"><tspan class="cls-4" x="0" y="0">O</tspan><tspan class="cls-1" x="87.13" y="0">Y</tspan></text>
+  <rect class="cls-2" y="78.26" width="186" height="6.87"/>
+  <rect class="cls-2" y="38.26" width="186" height="7"/>
+</svg>
